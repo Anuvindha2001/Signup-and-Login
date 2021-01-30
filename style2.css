@@ -1,0 +1,64 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto",sans-serif;
+    margin : 0;
+    padding : 0;
+    background-image:url(bgpic.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 700px;
+    display: flex;
+    padding:30px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 30px;
+    align-content: center;
+}
+.container h1{
+    color: blue;
+    margin: auto;
+    margin-right:auto;
+    margin-left: auto;
+    padding-right: 60px;
+    font-size:60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+    cursor: pointer;
+    outline: none;
+    width: 50%;
+    font-size:large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.details{
+    width : 400px;
+    box-shadow: 0 0 3px rgba(0,0,0,3);
+    border-radius: 20px;
+    background: #999;
+    padding:20px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.email,.psw{
+border-radius: 20px;
+padding: 10px;
+margin: 10px 0;
+width: 100%;
+border: 1px solid #999;
+outline: none;
+}
